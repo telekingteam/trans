@@ -3,10 +3,7 @@ return {
 	admin = 294665580,
 	plugins = {
 		'admin.lua',
-		'starting.lua',
-		'cb.lua',
-		'translate.lua',
-
+		'start.lua',
 	},
 	api_errors = {
 		[101] = 'Not enough rights to kick participant', --SUPERGROUP: bot is not admin
